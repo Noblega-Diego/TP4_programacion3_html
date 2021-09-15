@@ -1,0 +1,53 @@
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #59a5d8;
+}
+body h2{
+    font-size: 16px;
+}
+body label,body input{
+    font-size: 12px;
+}
+.form{
+    background-color: #eff1f3;
+    padding: 10px 40px;
+    border-radius: 8px;
+    border: 2px solid #223843;
+    font-family: "segoe ui", "helvetica neue", Arial, "noto sans", sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol", "noto color emoji";
+}
+.form h2{
+    color: #212529;
+}
+.box-flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+.form_contentfullW{
+    display: flex;
+    justify-content: center;
+}
+.box-flex .item-box, .button{
+    margin: 6px 14px;
+}
+
+.form_sugerencia{
+    margin-top: 20px;
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.form_sugerencia h2{
+    margin-top: 0px;
+    margin-right: 6px;
+}
+.form_sugerencia textarea{
+    min-width: 100px;
+}
+

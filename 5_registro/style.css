@@ -1,0 +1,62 @@
+
+body{
+    background-color: #62b6cb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+form{
+    position: relative;
+    font-family: "segoe ui", "helvetica neue", Arial, "noto sans", sans-serif, "apple color emoji", "segoe ui emoji", "segoe ui symbol", "noto color emoji";
+    padding: 6px;
+    max-width: max-content;    
+}
+form .button{
+    margin: 6px;
+}
+span{
+    color: #023047;
+}
+.box_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #273043;
+    background-color: #e9ecef;
+    width: 350px;
+    max-height: max-content;
+    border-radius: 4px;
+}
+
+label{
+    display: block;
+    margin-bottom: 6px;
+}
+
+.title_in{
+    display: inline-block;
+    width: 140px;
+}
+
+input[type="text"]{
+    width: 140px;
+}
+
+input[type="number"]{
+    width: 60px;
+}
+
+input[type="tel"]{
+    width: 80px;
+}
+
+input[type="email"]{
+    width: 160px;
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
